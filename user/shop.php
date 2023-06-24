@@ -59,7 +59,7 @@ if (isset($_POST['add_to_cart'])) {
 <body>
     <?php require_once('header.php'); ?>
 
-    <h1>Checking.............</h1>
+  
 
     <div class="all-products">
         <?php
