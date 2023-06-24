@@ -1,0 +1,21 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.message{
+    color:red;
+}
+.all-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.confirm_booking{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 22px;
+    margin-right: 22px;
+}

@@ -1,0 +1,45 @@
+/* header .navbar{
+    padding: 25px;
+}
+
+.navbar-nav1, .navbar-nav2{
+    flex-direction: row;
+}
+
+.btn3{
+    color: black;
+    border: none;
+}
+
+.btn3:hover{
+    color: black;
+    border-bottom:1px solid #7e107e;
+    border-radius: 0px;
+}
+
+.btn1{
+    color: white;
+    background-color: rgb(238, 109, 3);
+}
+
+.btn1:hover{
+    color: black;
+}
+
+.btn2{
+    color: #7e107e;
+}
+
+.btn2:hover{
+    color: black;
+}
+@media screen and (max-width:950px){
+    .navbar .container-fluid{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:500px){
+    .navbar .container-fluid div{
+        flex-direction: column;
+    }
+} */

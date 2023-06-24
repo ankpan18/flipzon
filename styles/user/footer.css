@@ -1,0 +1,23 @@
+.navFooterVerticalRow{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.navFooterColHead{
+    color:antiquewhite;
+}
+
+li a{
+    text-decoration: none;
+    color: aqua;
+}
+
+
+/* .navFooterVerticalColumn{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+} */
