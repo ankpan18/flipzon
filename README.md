@@ -10,8 +10,8 @@
 
 4. Products add functionality using cards
 
-5. Added items in cart on button click and 
+5. Added items in cart on button click. 
 
 6. Separate logins and dashboard for buyers,sellers .
 
-7. Made the website bogus against SQL injection, cross-site scriting (XSS) attacks.
+7. Made the website bogus against SQL injection, cross-site scripting (XSS) attacks.
