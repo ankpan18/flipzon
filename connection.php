@@ -42,11 +42,9 @@ function run_query_no_args($query){
     return $result;
 }
 
-function run_query($query,$signature=null,$values=null){
+function run_query($query,$signature,$values){
     global $conn;
 
-    if($signature!=null && $values==null)   die("pass both signature and values");
-    
     // global input_filter;
 
     $count = count($values);
@@ -63,7 +61,7 @@ function run_query($query,$signature=null,$values=null){
     if(($stmt = $conn->prepare($query))==null)  die("Error in query:\t".$query);
     
     call_user_func_array(array($stmt, "bind_param"), array_merge(array($signature), $values));
-    // $stmt->bind_param($signature, $values);
+    // $stmt->bind_param($signature, $value1,$value2,$value3);
 
     if(!$stmt->execute())    die("Error while inserting values in query:\t".$query);
     $result = $stmt->get_result();
